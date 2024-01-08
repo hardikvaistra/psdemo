@@ -20,6 +20,7 @@ class MyApp extends StatelessWidget {
           secondary: kcPrimaryLight,
           primary: kcPrimaryDark,
         ),
+        fontFamily: "PS5",
       ),
       home: const MyHomePage(),
     );
@@ -34,6 +35,20 @@ class MyHomePage extends StatefulWidget {
 }
 
 class _MyHomePageState extends State<MyHomePage> {
+  @override
+  Widget build(BuildContext context) {
+    return const Scaffold();
+  }
+}
+
+class PlayStationDetailPage extends StatefulWidget {
+  const PlayStationDetailPage({super.key});
+
+  @override
+  State<PlayStationDetailPage> createState() => _PlayStationDetailPageState();
+}
+
+class _PlayStationDetailPageState extends State<PlayStationDetailPage> {
   @override
   Widget build(BuildContext context) {
     return const Scaffold();
