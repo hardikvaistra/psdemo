@@ -26,8 +26,9 @@ flutter:
   assets:
     - assets/images/
     - assets/fonts/
+    - assets/icons/
 
   fonts:
     - family: PS5
       fonts:
-        - asset: fonts/ps-bold.ttf
+        - asset: assets/fonts/ps-bold.ttf
